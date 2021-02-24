@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>My Bio Data</h2>
+
+
+    <form action="">
+
+        <fieldset>
+            <legend>Personal Information</legend>
+        FirstName:
+        <label for="FirstName:"></label>
+        
+        <input type="text" placeholder="First name"id="Firstname">
+        Lastname:
+        <label for="LastName:"></label>
+    
+        <input type="text" placeholder="Last name"id="Lastname">
+        <br>
+        <br>
+
+
+        Gender:
+        <br>
+        Male:
+
+        <label for="Male"></label>
+        <input type="radio" name="Gender"id="Male">
+
+        Female:
+
+        <label for="Female"></label>
+        <input type="radio" name="Gender"id="Female">
+
+        others:
+
+        <label for="others"></label>
+        <input type="radio" name="Gender"id="others">
+
+        <br>
+        <br>
+        Date of Birth:
+        <input type="date" name="Gender"id="others">
+        <br>
+        <br>
+        E-Mail:
+        <input type="email" placeholder="enter your email">
+
+        <br>
+        <br>
+        Phone
+        <input type="number" maxlength="12" placeholder="+91">
+        <br>
+        <br>
+        Height
+        <input type="number" maxlength="3" placeholder="Height in Feet">
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Education</legend>
+            <br>
+        School Name:
+        <label for="School Name"></label>
+        <input type="text"placeholder="School Name" id="School Name">
+        <br>
+        <br>
+        Class:
+        <label for="Class"></label>
+        <input type="text"placeholder="Enter Class" id="Class">
+        <br>
+        <br>
+        Stream:
+        <select name="" id="" placeholder="Stream">
+            <option>CSE</option>
+            <option>ECE</option>
+            <option>ME</option>
+            <option>EE</option>
+            <option>EEE</option>
+        </select>
+        <br>
+        <br>
+        Marksheet:
+        <label for="Marksheet"></label>
+        <input type="file" placeholder="Choose file" id="Marksheet">
+
+    
+
+        
+
+
+        
+
+
+        </fieldset>
+
+        <br>
+    
+        <button>Submit</button>
+
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
